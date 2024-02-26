@@ -3,3 +3,4 @@ WORKDIR /app
 COPY . .
 RUN pip install pygame
 CMD ["python", "tateti.py"]
+    
